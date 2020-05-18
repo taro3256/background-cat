@@ -15,6 +15,8 @@ engineid="009348016860071911617:zv4bvlyufqj"
 keyword=`cat query.txt`
 
 # ２個目の引数の名前のディレクトリを作って移動
+rm -rf ./cat_imgs
+mkdir ./cat_imgs
 dir="./cat_imgs"
 mkdir $dir
 cd $dir
